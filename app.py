@@ -11,7 +11,6 @@ from folium import Marker
 from folium.plugins import MarkerCluster
 import streamlit as st 
 
-StreamlitPatcher().jupyter() 
 
 
 # In[51]:
