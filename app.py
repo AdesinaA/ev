@@ -4,13 +4,13 @@
 # In[49]:
 
 
-import pandas as pd # type: ignore
+import pandas as pd
 import numpy  as np
 import folium
 from folium import Marker
 from folium.plugins import MarkerCluster
-import streamlit as st # type: ignore
-from streamlit_jupyter import StreamlitPatcher, tqdm # type: ignore
+import streamlit as st 
+from streamlit_jupyter import StreamlitPatcher, tqdm
 
 StreamlitPatcher().jupyter() 
 
