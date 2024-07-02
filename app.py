@@ -10,7 +10,6 @@ import folium
 from folium import Marker
 from folium.plugins import MarkerCluster
 import streamlit as st 
-from streamlit_jupyter import StreamlitPatcher, tqdm
 
 StreamlitPatcher().jupyter() 
 
